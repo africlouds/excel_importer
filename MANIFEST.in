@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include excel_importer *.css
+recursive-include excel_importer *.csv
+recursive-include excel_importer *.html
+recursive-include excel_importer *.ico
+recursive-include excel_importer *.js
+recursive-include excel_importer *.json
+recursive-include excel_importer *.md
+recursive-include excel_importer *.png
+recursive-include excel_importer *.py
+recursive-include excel_importer *.svg
+recursive-include excel_importer *.txt
+recursive-exclude excel_importer *.pyc
